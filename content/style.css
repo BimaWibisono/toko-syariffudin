@@ -1,0 +1,33 @@
+body {
+  background-color: #72147e;
+}
+
+section {
+  margin-top: 5%;
+}
+
+.card-menu {
+  width: 14em;
+  margin: 0 2em 0 2em;
+  box-shadow: 0.5em 0.5em 0.15em 0.1em #4da39c86;
+}
+
+.card-menu img {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.card-menu:hover {
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+  transform: scale(1.1, 1.1);
+}
+
+table {
+  text-align: center;
+}
+
+.logout:hover {
+  background-color: rgba(139, 221, 221, 0.616);
+  color: aliceblue;
+}
